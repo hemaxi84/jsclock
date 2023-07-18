@@ -1,0 +1,75 @@
+
+.clock {
+    color: #7c4ea9;
+    font-size: 30px;
+    font-family: Orbitron;
+    letter-spacing: 3px;
+}
+
+.timezone {
+    color: #0a7746;
+    font-size: 30px;
+    font-family: Orbitron;
+    letter-spacing: 3px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.container {
+    margin-top: 60px
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh; 
+  }
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    background-color: transparent;
+    padding: 0.5em;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: px;
+  }
+  
+  
+  select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-right: 20px;
+  }
+  
+
+  /* Style the dropdown arrow */
+  select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #333;
+  }
+ 
+
+  /* Custom color styles */
+  select {
+    background-color: #f7f7f7;
+    color: #555;
+  }
+  

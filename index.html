@@ -1,0 +1,38 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="center-container">
+
+    <div class="main">
+        <select id="timezone" onchange="showDate()">
+            <option value="Asia/Calcutta" selected>Asia / Calcutta (IST)</option>
+            <option value="UTC"> Coordinated Universal Time (UTC)</option>
+            <option value="America/New_York">America/New York</option>
+            <option value="Canada/Pacific">Canada/Pacific (PST)</option>
+            <option value="Australia/Sydney">Australia/Sydney (AEST)</option>
+            <option value="Africa/Lagos">Africa/Lagos (WAT)</option>
+        </select>
+    </div>
+
+    
+    <div class="container" >
+        <div id="timezoneDisplay" class="timezone"></div>  <br/>
+        <div id="dateDisplay" class="clock" ></div><br/>
+        <div id="clockDisplay" class="clock" ></div>
+    </div>
+   
+</div>
+<script src="script.js"></script>
+</body>
+</html>
